@@ -25,7 +25,10 @@ SECRET_KEY = '&0er(t#&rcq714(8huxq15l=wobe#muvrq%wnzu=qpb==$d^r)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-ecommerce-web.onrender.com',  # 你的 Render 域名
+                 'localhost',                          # 本地开发
+                 '127.0.0.1',                         # 本地开发
+                ]
 
 
 # Application definition
